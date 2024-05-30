@@ -1,0 +1,194 @@
+  /* ESTILOS LISTAGEM */
+  
+.home {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.lateral {
+  width: 300px;
+  height: 100vh;
+  background-color: #F3F3F3;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avatar img {
+  width: 75px;
+  border: 1px solid gray;
+  border-radius: 50px;
+}
+
+.user h4 {
+  color: #333;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0px 10px;
+}
+
+.user span {
+  position: fixed;
+  top: 15px;
+  left: 10px;
+}
+
+.usuario img {
+  margin: 5px 0 0 10px;
+}
+
+.menu {
+  margin: 50px 0px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li img {
+  margin: 5px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  width: 260px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #D9D9D9;
+  color: black;
+  text-decoration: none;
+}
+
+.menu-item.active,
+.menu ul li a:hover {
+  background-color: #acacac;
+}
+
+
+.listagem {
+    overflow: auto;
+    height: 80vh;
+    background-color: #AD590B;
+    color: white;
+}
+
+.tituloPag {
+  margin: 40px 0 20px 97px;
+  font-weight: 400; 
+}
+
+.semTarefas {
+  margin: 40px 0 20px 97px;
+  font-weight: 300; 
+}
+
+
+.item_lista {
+  color: #333;
+  background-color: #ccc;
+  border-radius: 3px;
+  width: 80%;
+  height: 60px;
+  margin: auto;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.item_lista:hover {
+  background-color: #acacac;
+}
+
+.concluir{
+  margin: 0 10px 0 20px ;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.informacao {
+  width: 80%;
+  flex-direction: column;
+  
+}
+
+.descricao {
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 5px 0 5px ;
+}
+
+.data {
+  color: rgba(0, 0, 255, 0.589);
+  font-size: 13px;
+  margin: 0 5px 0 5px ;
+}
+
+.dataAtrasada {
+  color: rgba(255, 38, 0, 0.753);
+  font-size: 13px;
+  margin: 0 5px 0 5px ;
+}
+
+.prioridade {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.incluir {
+  overflow: auto;
+  height: 20vh;
+  background-color: #AD590B;
+}
+
+.inputTarefa {
+  color: #333;
+  background-color: #ccc;
+  border-radius: 3px;
+  width: 80%;
+  height: 60px;
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-evenly;
+
+}
+
+
+.inputDescricao {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.inputData {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+.inputPrioridade, .submitTarefa {
+  cursor: pointer;
+  font-size: 20px;
+  color: #333;
+}
+

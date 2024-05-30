@@ -1,0 +1,134 @@
+.login {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img/fundologin.png);
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .bemvindo {
+    position: absolute;
+    top: 45px;
+    left: 110px;
+    line-height: 5px;
+  }
+  .bemvindo h1 {
+    color: #AD590B;
+    font-size: 24px;
+    text-shadow: 3px 2px 6px black;
+  }
+
+  .bemvindo p {
+    color: #fff;
+    font-size: 13px;
+  }
+  
+  .login-container {
+    background-color: hwb(0 97% 0% / 0.335);
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 8px rgb(0 0 0 / 15%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+  }
+  
+  .login-container h2 {
+    color: #AD590B;
+    margin: 15px 0 15px 0;
+    font-size: 24px;
+    font-weight: 500;
+   
+  }
+
+  .form-container {
+    width: 300px; /* Largura do formulário */
+  }
+  
+  .input-group {
+    position: relative;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding-left: 40px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+  }
+  
+  .icon-container {
+    position: relative;
+  }
+  
+  .icon-container::before {
+    content: url('img/user.svg');
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .password-container::before {
+    content: url('img/senha.svg'); 
+  } 
+
+  
+  .input-group input {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 0px solid #ccc;
+    background-color: #0909093a;
+    width: 300px;
+  }
+
+  .username {
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  ::-webkit-input-placeholder { /*crhome*/
+    color: #09090981; 
+  }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: #09090981;  
+  }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: #AD590B;  
+  }
+ 
+ :-ms-input-placeholder {  
+    color: #AD590B;  
+  }
+  
+  .btnLogin {
+    background-color: #AD590B;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    width: 300px;
+    padding: 10px 20px;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #ad590bd8;
+  }
+  
+  .create {
+    text-decoration: none;
+    font-size: 13px;
+    color: #fff;
+  }
+
+  .criarConta, .loginConta {
+    margin: 10px 0;
+  }
