@@ -18,7 +18,7 @@ A aplicação consiste em um sistema de gerenciamento de tarefas, onde os usuár
     - Minha Lista: Exibe todas as tarefas pendentes com data futura.
     - Meu Dia: Exibe todas as tarefas pendentes com a data do dia atual.
     - Importante: Exibe todas as tarefas pendentes com data futura e prioridade alta.
-    Atrasadas: Exibe todas as tarefas pendentes com data anterior ao dia atual.
+    - Atrasadas: Exibe todas as tarefas pendentes com data anterior ao dia atual.
     
 ## Melhorias Previstas
   - Utilização de Frameworks: Implementar frameworks como Bootstrap e Angular em todo o sistema para melhorar a interface e a experiência do usuário.
