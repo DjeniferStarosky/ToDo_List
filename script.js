@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+// Tratar o css dos links de menu
 function setActive(element) {
     // Adiciona a classe 'active' ao elemento do menu clicado
     element.classList.add("active");
